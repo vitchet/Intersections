@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\shapes">
+      <UniqueIdentifier>{12086b9d-da11-4fca-8ede-35e47d74bd01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\intersections">
+      <UniqueIdentifier>{ea5adc66-ab6c-4a2f-8ca3-3aeb9cc6b72e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\shapes">
+      <UniqueIdentifier>{1a711394-aa32-48ff-84d5-ffc21911ac61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\intersections">
+      <UniqueIdentifier>{c06af17f-2bd8-42b8-9069-37f61c91c351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\exceptions">
+      <UniqueIdentifier>{7c9437bf-1b54-48d7-a47f-ab354c715ff0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StraightLineBase.cpp">
+      <Filter>Исходные файлы\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="LineRay.cpp">
+      <Filter>Исходные файлы\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Исходные файлы\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="LineSegment.cpp">
+      <Filter>Исходные файлы\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SegmentsIntersection.cpp">
+      <Filter>Исходные файлы\intersections</Filter>
+    </ClCompile>
+    <ClCompile Include="PointSegmentIntersection.cpp">
+      <Filter>Исходные файлы\intersections</Filter>
+    </ClCompile>
+    <ClCompile Include="RaySegmentIntersection.cpp">
+      <Filter>Исходные файлы\intersections</Filter>
+    </ClCompile>
+    <ClCompile Include="Poly.cpp">
+      <Filter>Исходные файлы\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="PolyIntersection.cpp">
+      <Filter>Исходные файлы\intersections</Filter>
+    </ClCompile>
+    <ClCompile Include="RayPolyIntersection.cpp">
+      <Filter>Исходные файлы\intersections</Filter>
+    </ClCompile>
+    <ClCompile Include="PolyInitException.h">
+      <Filter>Файлы заголовков\exceptions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Point.h">
+      <Filter>Файлы заголовков\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="LineSegment.h">
+      <Filter>Файлы заголовков\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="LineRay.h">
+      <Filter>Файлы заголовков\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="StraightLineBase.h">
+      <Filter>Файлы заголовков\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentsIntersection.h">
+      <Filter>Файлы заголовков\intersections</Filter>
+    </ClInclude>
+    <ClInclude Include="PointSegmentIntersection.h">
+      <Filter>Файлы заголовков\intersections</Filter>
+    </ClInclude>
+    <ClInclude Include="IntersectionBase.h">
+      <Filter>Файлы заголовков\intersections</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection.h">
+      <Filter>Файлы заголовков\intersections</Filter>
+    </ClInclude>
+    <ClInclude Include="RaySegmentIntersection.h">
+      <Filter>Файлы заголовков\intersections</Filter>
+    </ClInclude>
+    <ClInclude Include="Poly.h">
+      <Filter>Файлы заголовков\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="PolyIntersection.h">
+      <Filter>Файлы заголовков\intersections</Filter>
+    </ClInclude>
+    <ClInclude Include="RayPolyIntersection.h">
+      <Filter>Файлы заголовков\intersections</Filter>
+    </ClInclude>
+    <ClInclude Include="LineInitException.h">
+      <Filter>Файлы заголовков\exceptions</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
